@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    background-color: #FAFDD6;
+}
+
+h1{
+    font-family:'Sacramento', cursive;
+    font-size: 5.2rem;
+    color: #66BFBF;
+    width: fit-content;
+    margin: 50px auto 0 auto;
+    
+}
+
+h2{
+    color: #66BFBF;
+    font-family:'Montserrat', sans-ser ;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+color: #11999E;
+}
+
+a{
+    color: black;
+    margin-left: 100px;
+    font-family:'Montserrat', sans-ser ;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+hr{
+    border: dotted;
+    color: grey;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container{
+    padding-top: 50px;
+    
+}
+
+.bottom-container{
+    background-color: #11999E;
+    text-align: center;
+    padding: 10px 0 10px;
+    margin-top: 40px;
+    
+}
+
+.bottom-cloud{
+    position: absolute;left: 200px;
+}
+
+.top-cloud{ position: absolute; right: 200px;
+    
+}
+
+.mypic{
+    padding-top: 5%;
+    height: 200px;
+    width: 200px;
+}
+
+.skills-img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills-img2{
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: auto;
+  }
+  
+
+  .intro{
+      width: 30%;
+      margin: auto;
+      line-height: 2;
+  }
+
+  .conatct-message{
+      width: 40%;
+      margin: 40px auto 40px auto;
+  }
+
+  .copy-right{
+      color: #EAF6F6;
+      font-size: 0.75rem;
+      padding: 20px 0;
+
+  }
